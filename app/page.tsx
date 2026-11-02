@@ -3,5 +3,13 @@ export const metadata = {
 };
 
 export default function Page() {
-  return <><h1>App Router</h1><p>Bibibi</p></>;
+  return <>
+  <h1>App Router</h1>
+  <p>Bibibi</p>
+  <p>Welcome to Saigon</p>
+  </>;
+}
+
+export function generateStaticParams() {
+  return [{ slug: 'first-post' }, { slug: 'second-post' }]
 }
