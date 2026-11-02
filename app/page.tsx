@@ -5,7 +5,7 @@ export const metadata = {
 export default function Page() {
   return <>
   <h1>App Router</h1>
-  <p>Bibi bi</p>
+  <p>Bibibi</p>
   <p>Welcome to Saigon</p>
   </>;
 }
